@@ -18,8 +18,5 @@ public class BoostImageRenderer implements ImageRenderer {
         Rectangle range = boost.getRange();
         Rectangle body = boost.getBody();
         g.drawImage(image, range.x, range.y, range.width, range.height, null);
-        // for debug
-        g.setColor(Color.BLUE);
-        g.drawRect(body.x, body.y, body.width, body.height);
     }
 }

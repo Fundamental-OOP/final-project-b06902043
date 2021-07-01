@@ -10,7 +10,7 @@ import java.awt.*;
 import static utils.ImageStateUtils.imagesFromFolder;
 
 public class NormalWarplane extends Warplane {
-    public static int HP = 3000;
+    public static int HP = 2000;
     public static int CD = 50;
     public static Bullet BULLET = new NormalBullet(new Dimension(0, 0), new Point(0, 0)); // dummy bullet to represent default bullet (not add to the world -> not going to be called)
     public static int NUMBULLET = 1;

@@ -1,6 +1,6 @@
 import ai.MoveAI;
 import ai.RandomBoss;
-import boss.Boss;
+import boss.*;
 import boss.NormalBoss;
 import collisionHandler.ObjectCollisionHandler;
 import controller.Game;
@@ -8,8 +8,7 @@ import boostHandler.FixedTimeRandomBoostHandler;
 import model.World;
 import physicsHandler.NormalPhysicsHandler;
 import views.GameView;
-import warplane.NormalWarplane;
-import warplane.Warplane;
+import warplane.*;
 
 import java.awt.*;
 

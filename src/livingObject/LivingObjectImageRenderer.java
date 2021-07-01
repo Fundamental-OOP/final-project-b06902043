@@ -24,8 +24,5 @@ public class LivingObjectImageRenderer implements ImageRenderer {
         else {
             g.drawImage(image, range.x + range.width, range.y, -range.width, range.height, null);
         }
-        // for debug
-        g.setColor(Color.RED);
-        g.drawRect(body.x, body.y, body.width, body.height);
     }
 }

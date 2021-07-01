@@ -24,8 +24,5 @@ public class BulletImageRenderer implements ImageRenderer {
         else {
             g.drawImage(image, range.x, range.y + range.height, range.width, -range.height, null);
         }
-        // for debug
-        g.setColor(Color.BLUE);
-        g.drawRect(body.x, body.y, body.width, body.height);
     }
 }
