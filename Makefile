@@ -1,7 +1,7 @@
 .PHONY: run
 
 run:
-	rm -r out/
+	rm -rf out/
 	javac -cp . -sourcepath src -d out/ src/*.java
 	java -cp ".:out/" Main
 
